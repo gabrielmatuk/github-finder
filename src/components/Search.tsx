@@ -16,7 +16,7 @@ const Search = ({ loadUser }: SearchProps) => {
       loadUser(userName);
     }
   };
-  
+
   return (
     <div className={classes.search}>
       <h2>Busque por um usuário:</h2>
